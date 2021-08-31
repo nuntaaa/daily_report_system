@@ -1,14 +1,16 @@
 package constants;
 
 
-//画面の項目等定義するEnumクラス
-
+/**
+ * 画面の項目値等を定義するEnumクラス
+ *
+ */
 public enum AttributeConst {
 
     //フラッシュメッセージ
     FLUSH("flush"),
 
-    //一覧画面共有
+    //一覧画面共通
     MAX_ROW("maxRow"),
     PAGE("page"),
 
@@ -69,7 +71,5 @@ public enum AttributeConst {
     public Integer getIntegerValue() {
         return this.i;
     }
-
-
 
 }

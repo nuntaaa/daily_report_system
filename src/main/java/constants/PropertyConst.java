@@ -11,12 +11,10 @@ public enum PropertyConst {
 
     private final String text;
     private PropertyConst(final String text) {
-        this.text=text;
+        this.text = text;
     }
 
     public String getValue() {
         return this.text;
     }
-
-
 }

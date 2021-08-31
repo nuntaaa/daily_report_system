@@ -51,5 +51,4 @@ public class PropertiesListener implements ServletContextListener {
             e.printStackTrace();
         }
     }
-
 }
