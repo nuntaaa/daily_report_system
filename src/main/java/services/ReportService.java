@@ -75,7 +75,7 @@ public class ReportService extends ServiceBase{
      * @param id
      * @return 取得データのインスタンス
      */
-    public ReportView finOne(int id) {
+    public ReportView findOne(int id) {
         return ReportConverter.toView(findOneInternal(id));
 
     }
